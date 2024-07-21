@@ -1,0 +1,839 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Li, JB
+   Zhang, XJ
+   Wei, J
+   Ji, ZY
+   Wei, Z
+AF Li, Jingbo
+   Zhang, Xingjun
+   Wei, Jia
+   Ji, Zeyu
+   Wei, Zheng
+TI GARLSched: Generative adversarial deep reinforcement learning task
+   scheduling optimization for large-scale high performance computing
+   systems
+SO FUTURE GENERATION COMPUTER SYSTEMS-THE INTERNATIONAL JOURNAL OF ESCIENCE
+LA English
+DT Article
+DE Task scheduling; Deep reinforcement learning; Distributed systems; High
+   performance computing; Expert guidance
+AB Efficient task scheduling has become increasingly complex as the number and type of tasks proliferate and the size of computing resource grows in large-scale distributed high-performance computing (HPC) systems. At present, deep reinforcement learning (DRL) methods have achieved certain success in scheduling problems. However, due to the exogeneity of the task and the sparsity of the reward, the learning of the DRL control policy requires a significant amount of training time and data and cannot guarantee effective convergence. Meanwhile, based on the understanding of HPC system characteristics, various scheduling policies with acceptable performance for different optimization goals have been developed by the experts. But these heuristic methods cannot adapt to environmental changes and optimize for specific workloads. Therefore, the generative adversarial reinforcement learning scheduling (GARLSched) algorithm is proposed to effectively guide the learning of DRL in large-scale dynamic scheduling issues based on the optimal policy in the expert pool. In addition, the task embedding-based discriminator network effectively improves and stabilizes the learning process. Experiments show that compared with heuristic and DRL scheduling algorithms, GARLSched can learn high-quality scheduling policies for various workloads and optimization objects. Furthermore, the learned models can perform stably even when applied to invisible workloads, making them more practical in HPC systems. (C) 2022 Elsevier B.V. All rights reserved.
+C1 [Li, Jingbo; Zhang, Xingjun; Wei, Jia; Ji, Zeyu; Wei, Zheng] Xi An Jiao Tong Univ, Sch Comp Sci & Technol, Xian 710049, Peoples R China.
+C3 Xi'an Jiaotong University
+RP Zhang, XJ (corresponding author), Xi An Jiao Tong Univ, Sch Comp Sci & Technol, Xian 710049, Peoples R China.
+EM lijingbo17@stu.xjtu.edu.cn; xjzhang@xjtu.edu.cn;
+   lijingbo17@stu.xjtu.edu.cn
+RI WEI, Jia/IAL-9847-2023
+OI WEI, Jia/0000-0002-2234-0378; Wei, Zheng/0000-0002-2293-5427; Li,
+   Jingbo/0000-0002-7770-110X
+FU Natural Science Foundation of China [62172327]
+FX This work was supported by the Natural Science Foundation of China
+   (62172327) .
+NR 37
+TC 7
+Z9 7
+U1 3
+U2 27
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0167-739X
+EI 1872-7115
+J9 FUTURE GENER COMP SY
+JI Futur. Gener. Comp. Syst.
+PD OCT
+PY 2022
+VL 135
+BP 259
+EP 269
+DI 10.1016/j.future.2022.04.032
+EA MAY 2022
+PG 11
+WC Computer Science, Theory & Methods
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science
+GA 1T8KZ
+UT WOS:000804976100001
+DA 2024-04-04
+ER
+
+PT J
+AU Ogrean, V
+   Brad, R
+AF Ogrean, Valentin
+   Brad, Remus
+TI Deep reinforcement learning architectures for automatic organ
+   segmentation
+SO BIOMEDICAL SIGNAL PROCESSING AND CONTROL
+LA English
+DT Article
+DE Deep reinforcement learning; Automated organ segmentation; Deep
+   Q-Network; Proximal Policy Optimization
+AB In the automated segmentation field, the most promising results were obtained using Deep learning (DL) architectures that employ a mix of "Fully convolutional neural networks" (FCN), "Generative adversarial networks" (GAN), or "Recurrent neural networks" (RNN). In our paper we aim to challenge the status-quo of using supervised learning algorithms by proposing and implementing different Deep Reinforcement learning (DRL) architectures that execute the same task - human organ automatic segmentation. We present a completely new approach that defines the segmentation as a Markov Decision Process (MDP) problem where an agent navigates in the environment (CTs) and learns a policy to delineate the contour of the human organ. For solving this problem, we utilized different architectures built on DRL agents. The first architecture employs the Deep QNetwork (DQN) algorithm and uses discrete actions to navigate through CTs while executing the automatic segmentation for the heart. The second architecture implements the Proximal Policy Optimization (PPO) algorithm and utilizes a continuous action space in order to execute the same segmentation process. We tested these two architectures in different setups and using varied reward systems and our results prove that DRL can be used successfully for automated medical segmentation. We also proved that both off-policy, discrete action algorithms or on-policy, continuous action algorithms converge to generalized results.
+C1 [Ogrean, Valentin; Brad, Remus] Lucian Blaga Univ Sibiu, Sibiu, Romania.
+C3 Lucian Blaga University of Sibiu
+RP Ogrean, V (corresponding author), Lucian Blaga Univ Sibiu, Sibiu, Romania.
+EM valentin.ogrean@ulbsibiu.ro; remus.brad@ulbsibiu.ro
+RI Ogrean, Valentin/AAJ-7748-2021
+OI Ogrean, Valentin/0000-0002-3656-1534
+NR 36
+TC 0
+Z9 0
+U1 3
+U2 3
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 1746-8094
+EI 1746-8108
+J9 BIOMED SIGNAL PROCES
+JI Biomed. Signal Process. Control
+PD APR
+PY 2024
+VL 90
+AR 105919
+DI 10.1016/j.bspc.2023.105919
+EA JAN 2024
+PG 12
+WC Engineering, Biomedical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA IH1B9
+UT WOS:001165335200001
+DA 2024-04-04
+ER
+
+PT C
+AU Liu, CL
+   Ventre, C
+   Polukarov, M
+AF Liu, Chunli
+   Ventre, Carmine
+   Polukarov, Maria
+GP ACM
+TI Synthetic Data Augmentation for Deep Reinforcement Learning in Financial
+   Trading
+SO 3RD ACM INTERNATIONAL CONFERENCE ON AI IN FINANCE, ICAIF 2022
+LA English
+DT Proceedings Paper
+CT 3rd ACM International Conference on AI in Finance (ICAIF)
+CY NOV 02-04, 2022
+CL New York, NY
+SP Assoc Comp Machinery, J P Morgan Chase & Co, U S Bank
+DE Deep Reinforcement Learning; Quantitative Finance; Markov Decision
+   Process; Generative Model; Synthetic data; Financial Trading
+ID STRATEGIES
+AB Despite the eye-catching advances in the area, deploying Deep Reinforcement Learning (DRL) in financial markets remains a challenging task. Model-based techniques often fall short due to epistemic uncertainty, whereas model-free approaches require large amount of data that is often unavailable.
+   Motivated by the recent research on the generation of realistic synthetic financial data, we explore the possibility of using augmented synthetic datasets for training DRL agents without direct access to the real financial data. With our novel approach, termed synthetic data augmented reinforcement learning for trading (SDARL4T), we test whether the performance of DRL for financial trading can be enhanced, by attending to both profitability and generalization abilities. We show that DRL agents trained with SDARL4T make a profit which is comparable, and often much larger, than that obtained by the agents trained on real data, while guaranteeing similar robustness. These results support the adoption of our framework in real-world uses of DRL for trading.
+C1 [Liu, Chunli; Ventre, Carmine; Polukarov, Maria] Kings Coll London, London, England.
+C3 University of London; King's College London
+RP Liu, CL (corresponding author), Kings Coll London, London, England.
+EM chunli.liu@kcl.ac.uk; carmine.ventre@kcl.ac.uk;
+   maria.polukarov@kcl.ac.uk
+OI Ventre, Carmine/0000-0003-1464-1215
+FU UKRI Trustworthy Autonomous Systems Hub [EP/V00784X/1]
+FX Carmine Ventre acknowledges funding from the UKRI Trustworthy Autonomous
+   Systems Hub (EP/V00784X/1).
+NR 32
+TC 2
+Z9 2
+U1 3
+U2 3
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 978-1-4503-9376-8
+PY 2022
+BP 343
+EP 351
+DI 10.1145/3533271.3561704
+PG 9
+WC Business, Finance; Computer Science, Artificial Intelligence; Computer
+   Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Business & Economics; Computer Science
+GA BW1BA
+UT WOS:001103234000041
+DA 2024-04-04
+ER
+
+PT J
+AU Yun, WJ
+   Shin, M
+   Mohaisen, D
+   Lee, K
+   Kim, J
+AF Yun, Won Joon
+   Shin, MyungJae
+   Mohaisen, David
+   Lee, Kangwook
+   Kim, Joongheon
+TI Hierarchical Deep Reinforcement Learning-Based Propofol Infusion
+   Assistant Framework in Anesthesia
+SO IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS
+LA English
+DT Article
+DE Drugs; Anesthesia; Task analysis; Brain modeling; Trajectory;
+   Computational modeling; Decision making; Anesthesia; deep reinforcement
+   learning (DRL); infusion control; propofol; remifentanil
+ID PHARMACODYNAMICS; PHARMACOKINETICS; AGE
+AB This article aims to provide a hierarchical reinforcement learning (RL)-based solution to the automated drug infusion field. The learning policy is divided into the tasks of: 1) learning trajectory generative model and 2) planning policy model. The proposed deep infusion assistant policy gradient (DIAPG) model draws inspiration from adversarial autoencoders (AAEs) and learns latent representations of hypnotic depth trajectories. Given the trajectories drawn from the generative model, the planning policy infers a dose of propofol for stable sedation of a patient under total intravenous anesthesia (TIVA) using propofol and remifentanil. Through extensive evaluation, the DIAPG model can effectively stabilize bispectral index (BIS) and effect site concentration given a potentially time-varying target sequence. The proposed DIAPG shows an increased performance of 530% and 15% when a human expert and a standard reinforcement algorithm are used to infuse drugs, respectively.
+C1 [Yun, Won Joon; Kim, Joongheon] Korea Univ, Sch Elect Engn, Seoul 02841, South Korea.
+   [Shin, MyungJae] Mofl Inc, Daejeon 34168, South Korea.
+   [Mohaisen, David] Univ Cent Florida, Dept Comp Sci, Orlando, FL 32816 USA.
+   [Lee, Kangwook] Univ Wisconsin, Dept Elect & Comp Engn, Madison, WI 53706 USA.
+C3 Korea University; State University System of Florida; University of
+   Central Florida; University of Wisconsin System; University of Wisconsin
+   Madison
+RP Kim, J (corresponding author), Korea Univ, Sch Elect Engn, Seoul 02841, South Korea.
+EM ywjoon95@korea.ac.kr; mjshin.cau@gmail.com; mohaisen@ucf.edu;
+   kangwook.lee@wisc.edu; joongheon@korea.ac.kr
+RI Mohaisen, David/GQP-2695-2022; Mohaisen, Aziz/ABD-6425-2021
+OI Mohaisen, David/0000-0003-3227-2505; Yun, Won Joon/0000-0003-0405-8843;
+   Shin, MyungJae/0000-0001-6505-1448; Kim, Joongheon/0000-0003-2126-768X
+FU National Research Foundation of Korea [2019M3E3A1084054]; Institute of
+   Information and Communications Technology Planning and Evaluation (IITP)
+   - Korean Government (MSIT) [2021-0-00766]
+FX This work was supported in part by the National Research Foundation of
+   Korea under Grant 2019M3E3A1084054 and in part by the Institute of
+   Information and Communications Technology Planning and Evaluation (IITP)
+   Grant funded by the Korean Government (MSIT) (Development of Integrated
+   Development Framework that supports Automatic Neural Network Generation
+   and Deployment optimized for Runtime Environment) under Grant
+   2021-0-00766.
+NR 42
+TC 4
+Z9 4
+U1 3
+U2 9
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2162-237X
+EI 2162-2388
+J9 IEEE T NEUR NET LEAR
+JI IEEE Trans. Neural Netw. Learn. Syst.
+PD FEB
+PY 2024
+VL 35
+IS 2
+BP 2510
+EP 2521
+DI 10.1109/TNNLS.2022.3190379
+EA JUL 2022
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Hardware &
+   Architecture; Computer Science, Theory & Methods; Engineering,
+   Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering
+GA IN9H4
+UT WOS:000829203700001
+PM 35853065
+DA 2024-04-04
+ER
+
+PT J
+AU Jiang, D
+   Huang, J
+   Fang, Z
+   Cheng, CX
+   Sha, QX
+   He, B
+   Li, GL
+AF Jiang, Dong
+   Huang, Jie
+   Fang, Zheng
+   Cheng, Chunxi
+   Sha, Qixin
+   He, Bo
+   Li, Guangliang
+TI Generative adversarial interactive imitation learning for path following
+   of autonomous underwater vehicle
+SO OCEAN ENGINEERING
+LA English
+DT Article
+DE Deep reinforcement learning; Autonomous control; Autonomous underwater
+   vehicle; Imitation learning; Interactive reinforcement learning
+ID LEVEL CONTROL; PID CONTROL; REINFORCEMENT
+AB Autonomous underwater vehicle (AUV) is playing a more and more important role in marine scientific research and resource exploration due to its flexibility. Recently, deep reinforcement learning (DRL) has been used to improve the autonomy of AUV. However, it is very time-consuming and even unpractical to define efficient reward functions for DRL to learn control policies in various tasks. In this paper, we implemented the generative adversarial imitation learning (GAIL) algorithm learning from demonstrated trajectories and proposed GA2IL learning from demonstrations and additional human rewards for AUV path following. We evaluated GAIL and our GA2IL method in a straight line following task and a sinusoids curve following task on the Gazebo platform extended to simulated underwater environments with AUV simulator of our lab. Both methods were compared to PPO-a classic traditional deep reinforcement learning from a predefined reward function, and a well-tuned PID controller. In addition, to evaluate the generalization of GAIL and our GA2IL method, we tested the trained control policies of the previous two tasks via GAIL and GA2IL in a new complex comb scan following task and a different sinusoids curve following task respectively. Our simulation results show AUV path following with GA2IL and GAIL can obtain a performance at a similar level to PPO and PID controller in both tasks. Moreover, GA2IL can generalize as well as PPO, adapting better to complex and different tasks than traditional PID controller.
+C1 [Jiang, Dong; Huang, Jie; Fang, Zheng; Cheng, Chunxi; Sha, Qixin; He, Bo; Li, Guangliang] Ocean Univ China, Coll Elect Engn, Qingdao, Peoples R China.
+C3 Ocean University of China
+RP Li, GL (corresponding author), Ocean Univ China, Coll Elect Engn, Qingdao, Peoples R China.
+EM guangliangli@ouc.edu.cn
+RI Li, Guangliang/GRJ-0223-2022; Fang, Zheng/HHM-9544-2022
+OI Li, Guangliang/0000-0003-1728-5711; Fang, Zheng/0000-0002-9490-307X;
+   Jie, Huang/0000-0003-1570-6797
+FU Natural Science Foundation of China [51809246]
+FX This work was supported by Natural Science Foundation of China (under
+   grant No. 51809246) .
+NR 53
+TC 3
+Z9 3
+U1 28
+U2 68
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0029-8018
+EI 1873-5258
+J9 OCEAN ENG
+JI Ocean Eng.
+PD SEP 15
+PY 2022
+VL 260
+AR 111971
+DI 10.1016/j.oceaneng.2022.111971
+EA AUG 2022
+PG 11
+WC Engineering, Marine; Engineering, Civil; Engineering, Ocean;
+   Oceanography
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Oceanography
+GA 3Y3LH
+UT WOS:000843627700005
+DA 2024-04-04
+ER
+
+PT J
+AU Xu, YL
+   Zhang, M
+   Jin, BY
+AF Xu, Yongle
+   Zhang, Ming
+   Jin, Boyin
+TI Pursuing Benefits or Avoiding Threats: Realizing Regional Multi-Target
+   Electronic Reconnaissance With Deep Reinforcement Learning
+SO IEEE ACCESS
+LA English
+DT Article
+DE Multi-target electronic reconnaissance; cognitive electronic warfare;
+   deep reinforcement learning; 3D motion planning; POMDP model
+ID UAV; TARGET; COVERAGE
+AB Unmanned combat aerial vehicles (UCAVs) are preferred for regional electronic reconnaissance due to their versatility and stealth. This paper proposes a deep reinforcement learning (DRL) method to enable UCAVs to complete regional multi-target electronic reconnaissance (MER) tasks with continuous autonomous maneuvers. Distinguishing from traditional heuristic search algorithms, we first derive the objective function of MER and elucidate sufficient conditions to improve the success rate of reconnaissance recognition. Then, using the original cognitive electronic warfare framework, a three-dimensional MER simulator named Scouer-N is created to satisfy the requirements of dynamic environment training for DRL-based agents. To enable the processing of sequential situation awareness, a generative network is constructed by introducing a partially observable Markov decision process (POMDP) model, which assists the UCAV in filtering the observations from the sensor and predicting the actual states. Finally, we propose a priority-driven state reward shaping method that provides normalized state representation and dense rewards to the agent during training to improve the agent's behavioral knowledge for MER. The experimental results demonstrate a considerable improvement in the task success rate of the trained UCAV relative to the benchmark, proving the efficacy of our approach in helping agents learn the optimal reconnaissance strategy from the potential state space.
+C1 [Xu, Yongle; Zhang, Ming; Jin, Boyin] Jiangsu Univ Sci & Technol, Sch Comp, Zhenjiang 212100, Peoples R China.
+C3 Jiangsu University of Science & Technology
+RP Jin, BY (corresponding author), Jiangsu Univ Sci & Technol, Sch Comp, Zhenjiang 212100, Peoples R China.
+EM boyin_jin@just.edu.cn
+NR 34
+TC 0
+Z9 0
+U1 6
+U2 7
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2023
+VL 11
+BP 63972
+EP 63984
+DI 10.1109/ACCESS.2023.3289077
+PG 13
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA L2XA1
+UT WOS:001021927600001
+OA gold
+DA 2024-04-04
+ER
+
+PT J
+AU Higaki, T
+   Hashimoto, H
+AF Higaki, Takefumi
+   Hashimoto, Hirotada
+TI Human-like route planning for automatic collision avoidance using
+   generative adversarial imitation learning
+SO APPLIED OCEAN RESEARCH
+LA English
+DT Article
+DE Collision avoidance; Route planning; Generative adversarial imitation
+   learning; Convolutional neural network; COLREGs; Imitation of human
+   expert
+AB Automatic collision avoidance systems are expected to eliminate maritime accidents caused by human error. Recent studies have shown that ships can prevent collisions in complex situations by using deep reinforcement learning (DRL). However, rewards must be designed to implement DRL, which can be challenging for ambiguous tasks, such as following the Convention on the International Regulations for Preventing Collisions at Sea (COLREGs). While some studies have used inverse reinforcement learning (IRL) to derive an appropriate reward for limited problems with small, discrete state spaces, this study introduced generative adversarial imitation learning (GAIL) and proposed a route planning algorithm that addresses the above limitations. We applied DRL to generate sample collision avoidance trajectories and demonstrate that the imitative route planner based on GAIL can reproduce these trajectories. Also, expert trajectories were collected in simulation experiments involving a well-experienced captain, and we attempted to generate collision avoidance routes that mimic human expert performance. By applying a convolutional neural network and other techniques to improve the planner's imitation capability, we established a sophisticated route planner that is consistent with captain's risk assessments and tolerant of noise.
+C1 [Higaki, Takefumi] Osaka Prefecture Univ, Grad Sch Engn, Div Aerosp & Marine Syst Engn, 1-1 Gakuen Cho,Naka Ku, Sakai, Osaka 5998531, Japan.
+   [Hashimoto, Hirotada] Osaka Metropolitan Univ, Grad Sch Engn, Div Aerosp & Marine Syst Engn, 1-1 Gakuen Cho,Naka Ku, Sakai, Osaka 5998531, Japan.
+C3 Osaka Metropolitan University; Osaka Metropolitan University
+RP Higaki, T (corresponding author), Osaka Prefecture Univ, Grad Sch Engn, Div Aerosp & Marine Syst Engn, 1-1 Gakuen Cho,Naka Ku, Sakai, Osaka 5998531, Japan.
+EM df102006@st.osakafu-u.ac.jp
+OI Higaki, Takefumi/0000-0003-4838-4253; Hashimoto,
+   Hirotada/0000-0003-4200-2357
+FU Japan Society for the Promotion of Science [20H00284, 22J20009,
+   23H01627]; Fundamental Research Developing Association for Shipbuilding
+   and Offshore (REDAS); Ministry of Land, Infrastructure, Transport and
+   Tourism (MLIT)
+FX <STRONG>& nbsp;</STRONG>This work was supported by Japan Society for the
+   Promotion of Science (Grant Number 20H00284, 22J20009 & amp; 23H01627)
+   and Fundamental Research Developing Association for Shipbuilding and
+   Offshore (REDAS). Also, it was conducted as a part of the "2021 Support
+   Project for R & amp;D in Promoting Aggregation and Cooperation in the
+   Maritime Industry" by Ministry of Land, Infrastructure, Transport and
+   Tourism (MLIT). The authors are grateful to Japan Marine Science inc.
+   and MTI Co., Ltd. for providing the experiment data and technical
+   advice.& nbsp;& nbsp;
+NR 35
+TC 1
+Z9 1
+U1 14
+U2 19
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0141-1187
+EI 1879-1549
+J9 APPL OCEAN RES
+JI Appl. Ocean Res.
+PD SEP
+PY 2023
+VL 138
+AR 103620
+DI 10.1016/j.apor.2023.103620
+EA JUN 2023
+PG 12
+WC Engineering, Ocean; Oceanography
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Oceanography
+GA K7QZ1
+UT WOS:001018361800001
+OA hybrid
+DA 2024-04-04
+ER
+
+PT J
+AU Xu, M
+   Yang, L
+   Tao, XM
+   Duan, YP
+   Wang, ZL
+AF Xu, Mai
+   Yang, Li
+   Tao, Xiaoming
+   Duan, Yiping
+   Wang, Zulin
+TI Saliency Prediction on Omnidirectional Image With Generative Adversarial
+   Imitation Learning
+SO IEEE TRANSACTIONS ON IMAGE PROCESSING
+LA English
+DT Article
+DE Head; Predictive models; Two dimensional displays; Visualization; Task
+   analysis; Semantics; Feature extraction; Omnidirectional images;
+   large-scale dataset; deep reinforcement learning; imitation learning
+ID VISUAL-ATTENTION; MODEL
+AB When watching omnidirectional images (ODIs), subjects can access different viewports by moving their heads. Therefore, it is necessary to predict subjects' head fixations on ODIs. Inspired by generative adversarial imitation learning (GAIL), this paper proposes a novel approach to predict saliency of head fixations on ODIs, named SalGAIL. First, we establish a dataset for attention on ODIs (AOI). In contrast to traditional datasets, our AOI dataset is large-scale, which contains the head fixations of 30 subjects viewing 600 ODIs. Next, we mine our AOI dataset and discover three findings: (1) the consistency of head fixations are consistent among subjects, and it grows alongside the increased subject number; (2) the head fixations exist with a front center bias (FCB); and (3) the magnitude of head movement is similar across the subjects. According to these findings, our SalGAIL approach applies deep reinforcement learning (DRL) to predict the head fixations of one subject, in which GAIL learns the reward of DRL, rather than the traditional human-designed reward. Then, multi-stream DRL is developed to yield the head fixations of different subjects, and the saliency map of an ODI is generated via convoluting predicted head fixations. Finally, experiments validate the effectiveness of our approach in predicting saliency maps of ODIs, significantly better than 11 state-of-the-art approaches. Our AOI dataset and code of SalGAIL are available online at https://github.com/yanglixiaoshen/SalGAIL.
+C1 [Xu, Mai; Yang, Li; Wang, Zulin] Beihang Univ, Sch Elect & Informat Engn, Beijing 100191, Peoples R China.
+   [Tao, Xiaoming; Duan, Yiping] Tsinghua Univ, Dept Elect Engn, Beijing 100084, Peoples R China.
+C3 Beihang University; Tsinghua University
+RP Xu, M (corresponding author), Beihang Univ, Sch Elect & Informat Engn, Beijing 100191, Peoples R China.
+EM MaiXu@buaa.edu.cn
+RI Tao, XiaoMing/A-9992-2010
+OI Yang, Li/0000-0002-1889-3113
+FU Beijing Natural Science Foundation [JQ20020]; NSFC [61876013, 61922009]
+FX This work was supported in part by Beijing Natural Science Foundation
+   under Grant JQ20020, and in part by the NSFC Projects under Grants
+   61876013 and 61922009.
+NR 62
+TC 18
+Z9 18
+U1 3
+U2 34
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1057-7149
+EI 1941-0042
+J9 IEEE T IMAGE PROCESS
+JI IEEE Trans. Image Process.
+PY 2021
+VL 30
+BP 2087
+EP 2102
+DI 10.1109/TIP.2021.3050861
+PG 16
+WC Computer Science, Artificial Intelligence; Engineering, Electrical &
+   Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering
+GA PY6HZ
+UT WOS:000612145300007
+PM 33460380
+DA 2024-04-04
+ER
+
+PT C
+AU Zhang, EC
+   Zhao, L
+   Lin, N
+   Zhang, WJ
+   Hawbani, A
+   Min, GY
+AF Zhang, Enchao
+   Zhao, Liang
+   Lin, Na
+   Zhang, Weijun
+   Hawbani, Ammar
+   Min, Geyong
+GP IEEE
+TI Cooperative Task Offloading in Cybertwin-Assisted Vehicular Edge
+   Computing
+SO 2022 IEEE 20TH INTERNATIONAL CONFERENCE ON EMBEDDED AND UBIQUITOUS
+   COMPUTING, EUC
+LA English
+DT Proceedings Paper
+CT 20th IEEE International Conference on Embedded and Ubiquitous Computing
+   (EUC)
+CY DEC 09-11, 2022
+CL Wuhan, PEOPLES R CHINA
+SP IEEE, IEEE Comp Soc, Huazhong Univ Sci & Technol
+DE Mobile Edge Computing; Vehicular Edge Computing; Deep Reinforcement
+   Learning; Task Offloading; Digital Twins; Generative Adversarial Network
+AB Vehicular Edge Computing (VEC) is a computing paradigm that brings Mobile Edge Computing (MEC) to the road and vehicular scenarios by providing low-latency and highefficiency computation services. One key technology of VEC is task offloading, which allows vehicles to send computation tasks to surrounding Roadside Units (RSUs) for execution, thereby reducing service delay. However, the existing task offloading schemes face the important challenges because the vehicles with time-varying trajectories and limited computing resources need to process massive data with high complexity and diversity. In this paper, we propose a Cooperative Task Offloading Scheme (CTOS) based on Cybertwin-assisted VEC. Specially, a novel Cybertwin-assisted VEC network architecture is established by applying the combination of the Digital-Twins (DT) and the Generative Adversarial Network (GAN). With the powerful prediction capability of GAN, the data of DT is advanced with the physical entity, which is an effective assistant for task offloading. Then, we leverage the distributed Deep Reinforcement Learning (DRL) to make offloading decisions, which consider the limited resources of RSUs and the cooperation of vehicles. The simulation results demonstrate that the proposed scheme can achieve excellent performance in terms of system stability and efficiency.
+C1 [Zhang, Enchao; Zhao, Liang; Lin, Na; Zhang, Weijun] Shenyang Aerosp Univ, Shenyang, Peoples R China.
+   [Hawbani, Ammar] Univ Sci & Technol, Hefei, Peoples R China.
+   [Min, Geyong] Univ Exeter, Exeter, Devon, England.
+C3 Shenyang Aerospace University; Chinese Academy of Sciences; University
+   of Science & Technology of China, CAS; University of Exeter
+RP Zhang, EC (corresponding author), Shenyang Aerosp Univ, Shenyang, Peoples R China.
+EM enchaozhang1998@163.com; lzhao@sau.edu.cn; linna@sau.edu.cn;
+   13704026116@139.com; anmande@ustc.edu.cn; G.Min@exeter.ac.uk
+RI Hawbani, Ammar/S-3356-2019; Zhao, Liang/AAD-2705-2020
+OI Hawbani, Ammar/0000-0002-1069-3993; Zhao, Liang/0000-0001-5829-6850;
+   Zhang, Enchao/0000-0002-5558-4221
+FU National Natural Science Foundation of China [61902261]; Liaoning
+   Provincial Department of Education Science Foundation [JYT2020046];
+   Natural Science Foundation of Liaoning Province [2020-MS-237,
+   2021-BS-190]
+FX This paper is supported in part by the National Natural Science
+   Foundation of China under Grant 61902261, in part by the Liaoning
+   Provincial Department of Education Science Foundation under Grant
+   LJKZ0206 (Key Projects), in part by the Natural Science Foundation of
+   Liaoning Province under Grant 2020-MS-237, 2021-BS-190, and in part by
+   the Liaoning Provincial Department of Education Science Foundation under
+   Grant JYT2020046.
+NR 14
+TC 1
+Z9 1
+U1 0
+U2 4
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+BN 979-8-3503-9635-5
+PY 2022
+BP 66
+EP 73
+DI 10.1109/EUC57774.2022.00020
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science,
+   Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BV0ZR
+UT WOS:000982299100011
+DA 2024-04-04
+ER
+
+PT J
+AU Li, TY
+   Yang, GK
+   Chu, J
+AF Li, Tianyi
+   Yang, Genke
+   Chu, Jian
+TI Implicit Posteriori Parameter Distribution Optimization in Reinforcement
+   Learning
+SO IEEE TRANSACTIONS ON CYBERNETICS
+LA English
+DT Article; Early Access
+DE Bayes methods; Uncertainty; Artificial neural networks; Task analysis;
+   Mathematical models; Inference algorithms; Generators; Bayesian
+   inference; exploration; parameter distribution; reinforcement learning
+   (RL)
+ID LEVEL
+AB Efficient and intelligent exploration remains a major challenge in the field of deep reinforcement learning (DRL). Bayesian inference with a distributional representation is usually an effective way to improve the exploration ability of the RL agent. However, when optimizing Bayesian neural networks (BNNs), most algorithms need to specify an explicit parameter distribution such as a multivariate Gaussian distribution. This may reduce the flexibility of model representation and affect the algorithm performance. Therefore, to improve sample efficiency and exploration based on Bayesian methods, we propose a novel implicit posteriori parameter distribution optimization (IPPDO) algorithm. First, we adopt a distributional perspective on the parameter and model it with an implicit distribution, which is approximated by generative models. Each model corresponds to a learned latent space, providing structured stochasticity for each layer in the network. Next, to make it possible to optimize an implicit posteriori parameter distribution, we build an energy-based model (EBM) with value function to represent the implicit distribution which is not constrained by any analytic density function. Then, we design a training algorithm based on amortized Stein variational gradient descent (SVGD) to improve the model learning efficiency. We compare IPPDO with other prevailing DRL algorithms on the OpenAI Gym, MuJoCo, and Box2D platforms. Experiments on various tasks demonstrate that the proposed algorithm can represent the parameter uncertainty implicitly for a learned policy and can consistently outperform competing approaches.
+C1 [Li, Tianyi; Yang, Genke; Chu, Jian] Shanghai Jiao Tong Univ, Ningbo Artificial Intelligence Inst, Shanghai 200240, Peoples R China.
+   [Li, Tianyi; Yang, Genke; Chu, Jian] Shanghai Jiao Tong Univ, Dept Automation, Shanghai 200240, Peoples R China.
+C3 Shanghai Jiao Tong University; Shanghai Jiao Tong University
+RP Yang, GK (corresponding author), Shanghai Jiao Tong Univ, Ningbo Artificial Intelligence Inst, Shanghai 200240, Peoples R China.; Yang, GK (corresponding author), Shanghai Jiao Tong Univ, Dept Automation, Shanghai 200240, Peoples R China.
+EM lanaya@sjtu.edu.cn; gkyang@sjtu.edu.cn; chujian@sjtu.edu.cn
+OI Li, Tianyi/0000-0002-9423-6369
+FU China National Research and Development Key Research Program
+   [2020YFB1711204, 2019YFB1705700]
+FX This work was supported in part by the China National Research and
+   Development Key Research Program under Grant 2020YFB1711204 and Grant
+   2019YFB1705700.
+NR 55
+TC 0
+Z9 0
+U1 5
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2168-2267
+EI 2168-2275
+J9 IEEE T CYBERNETICS
+JI IEEE T. Cybern.
+PD 2023 MAR 22
+PY 2023
+DI 10.1109/TCYB.2023.3254596
+EA MAR 2023
+PG 14
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Cybernetics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Computer Science
+GA C0HE5
+UT WOS:000958826300001
+PM 37030741
+DA 2024-04-04
+ER
+
+PT J
+AU Garmroodi, AD
+   Nasiri, F
+   Haghighat, F
+AF Garmroodi, Alireza Daneshvar
+   Nasiri, Fuzhan
+   Haghighat, Fariborz
+TI Optimal dispatch of an energy hub with compressed air energy storage: A
+   safe reinforcement learning approach
+SO JOURNAL OF ENERGY STORAGE
+LA English
+DT Article
+DE Compressed air energy storage; Energy management; Energy hub; Safe
+   reinforcement learning
+ID DEMAND RESPONSE; MANAGEMENT
+AB With the advancements in renewable energy and energy storage technologies, the energy hubs (EH) have been emerging in recent years. The scheduling of EH is a challenging task due to the need to incorporate uncertainties at energy supply and load side. The existing model-based optimization approaches proposed for the above purpose have limitations in terms of solution accuracy and computational efficiency, which makes hinders their applications. This paper proposes a model-free, safe deep reinforcement learning (DRL) approach, using primal -dual optimization and imitation learning, for optimal scheduling of an EH that includes a tri-generative advanced adiabatic compressed air energy storage (AA-CAES). First, the operation of an AA-CAES under off-design con-ditions is modeled and linearized using a mixed-integer linear programming (MILP). Then, a safe DRL approach is proposed with training and testing steps considering a case study. The performance of the proposed approach in reducing operational cost and satisfying constraints is compared to the state-of-the-art DRL algorithms as well as a deterministic MILP approach. In addition, the generalization of the proposed approach is examined on a test -set. Finally, the effect of off-design conditions of a tri-generative AA-CAES on the optimal dispatch strategy is investigated. The results indicate that the proposed approach can effectively reduce the operational cost and satisfy the operational constraints.
+C1 [Garmroodi, Alireza Daneshvar; Nasiri, Fuzhan; Haghighat, Fariborz] Concordia Univ, Dept Bldg Civil & Environm Engn, Montreal, PQ H3G 1M8, Canada.
+C3 Concordia University - Canada
+RP Nasiri, F (corresponding author), Concordia Univ, Dept Bldg Civil & Environm Engn, Montreal, PQ H3G 1M8, Canada.
+EM fuzhan.nasiri@concordia.ca
+RI Nasiri, Fuzhan/JPL-6869-2023
+OI Nasiri, Fuzhan/0000-0002-7423-0621
+FU India-Canada Centre for Innovative Multidisciplinary Partnerships to
+   Accelerate Community Transformation and Sustainability (IC -IMPACTS)
+FX The historical data of the community load demands is offered by Jaume
+   Salom, Meril Tamm, Samuel Rabadan and Joana Ortiz in form of Open Data
+   in International Energy Agency Annex 83 on Positive Energy Districts
+   [61] . The authors want to express their appreciation to the funding
+   support from the India-Canada Centre for Innovative Multidisciplinary
+   Partnerships to Accelerate Community Transformation and Sustainability
+   (IC -IMPACTS), dedicated to the development of scientific collaborations
+   between Canada and India. We are very much thankful to three anonymous
+   reviewers for their constructive and valuable comments that were very
+   helpful in improving the quality of this manuscript.
+NR 62
+TC 9
+Z9 9
+U1 8
+U2 12
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2352-152X
+EI 2352-1538
+J9 J ENERGY STORAGE
+JI J. Energy Storage
+PD JAN
+PY 2023
+VL 57
+AR 106147
+DI 10.1016/j.est.2022.106147
+EA NOV 2022
+PG 25
+WC Energy & Fuels
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels
+GA E3QP7
+UT WOS:000974725600001
+DA 2024-04-04
+ER
+
+PT C
+AU Pore, A
+   Tagliabue, E
+   Piccinelli, M
+   Dall'Alba, D
+   Casals, A
+   Fiorini, P
+AF Pore, Ameya
+   Tagliabue, Eleonora
+   Piccinelli, Marco
+   Dall'Alba, Diego
+   Casals, Alicia
+   Fiorini, Paolo
+GP IEEE
+TI Learning from Demonstrations for Autonomous Soft-tissue Retraction
+SO 2021 INTERNATIONAL SYMPOSIUM ON MEDICAL ROBOTICS (ISMR)
+LA English
+DT Proceedings Paper
+CT International Symposium on Medical Robotics (ISMR)
+CY NOV 17-19, 2021
+CL Atlanta, GA
+ID ROBOT
+AB The current research focus in Robot-Assisted Minimally Invasive Surgery (RAMIS) is directed towards increasing the level of robot autonomy, to place surgeons in a supervisory position. Although Learning from Demonstrations (LfD) approaches are among the preferred ways for an autonomous surgical system to learn expert gestures, they require a high number of demonstrations and show poor generalization to the variable conditions of the surgical environment. In this work, we propose an LfD methodology based on Generative Adversarial Imitation Learning (GAIL) that is built on a Deep Reinforcement Learning (DRL) setting. GAIL combines generative adversarial networks to learn the distribution of expert trajectories with a DRL setting to ensure generalisation of trajectories providing human-like behaviour. We consider automation of tissue retraction, a common RAMIS task that involves soft tissues manipulation to expose a region of interest. In our proposed methodology, a small set of expert trajectories can be acquired through the da Vinci Research Kit (dVRK) and used to train the proposed LfD method inside a simulated environment. Results indicate that our methodology can accomplish the tissue retraction task with human-like behaviour while being more sample-efficient than the baseline DRL method. Towards the end, we show that the learnt policies can be successfully transferred to the real robotic platform and deployed for soft tissue retraction on a synthetic phantom.
+C1 [Pore, Ameya; Tagliabue, Eleonora; Piccinelli, Marco; Dall'Alba, Diego; Fiorini, Paolo] Univ Verona, Dept Comp Sci, Verona, Italy.
+   [Pore, Ameya; Casals, Alicia] Univ Politecn Cataluna, Automat Control & Comp Engn Dept, Barcelona, Spain.
+C3 University of Verona; Universitat Politecnica de Catalunya
+RP Pore, A (corresponding author), Univ Verona, Dept Comp Sci, Verona, Italy.; Pore, A (corresponding author), Univ Politecn Cataluna, Automat Control & Comp Engn Dept, Barcelona, Spain.
+EM ameya.pore@univr.it
+FU NVIDIA Corporation
+FX The authors would like to thank Enrico Magnabosco, Sanat Ramesh for
+   their support in the initial development of the simulator and discussion
+   respectively. We also acknowledge the support of NVIDIA Corporation for
+   the donation of the Titan Xp GPU used in this research.
+NR 22
+TC 3
+Z9 3
+U1 4
+U2 7
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-6654-0622-2
+PY 2021
+DI 10.1109/ISMR48346.2021.9661514
+PG 7
+WC Medicine, Research & Experimental; Robotics
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Research & Experimental Medicine; Robotics
+GA BT0BF
+UT WOS:000786415500017
+OA Green Published, Green Submitted
+DA 2024-04-04
+ER
+
+PT J
+AU Elakkiya, R
+   Vijayakumar, P
+   Kumar, N
+AF Elakkiya, R.
+   Vijayakumar, Pandi
+   Kumar, Neeraj
+TI An optimized Generative Adversarial Network based continuous sign
+   language classification
+SO EXPERT SYSTEMS WITH APPLICATIONS
+LA English
+DT Article
+DE Continuous sign language recognition; Generative Adversarial Networks;
+   Sign classification; Feature dimensionality reduction; Hyperparameter
+   optimization
+AB Classifying manual and non-manual gestures in sign language recognition is a complex and challenging task. Sign language gestures are the combination of hand, face, and body postures, which often have self-occlusions and inter-object occlusions of both the hands, hands with face, or hands with upper body postures. This paper addresses the characterization of manual and non-manual gestures in recognizing the sign language gestures from continuous video sequences. This paper introduces a novel hyperparameter based optimized Generative Adversarial Networks (H-GANs) to classify the sign gestures, and it works in three phases. In phase-I, it adapts the stacked variational auto-encoders (SVAE) and Principal Component Analysis (PCA) to get the pre-tuned data with reduced feature dimensions. In Phase-II, the H-GANs employed Deep Long Short Term Memory (LSTM) as generator and LSTM with 3D Convolutional Neural Network (3D-CNN) as a discriminator. The generator generates random sequences with noise from the real sequence of frames, and the discriminator detects and classifies the real frames of sign gestures. In Phase-III, the proposed approach employs Deep Reinforcement Learning (DRL) for hyperparameter optimization and regularization. By getting the reward points, Proximal Policy Optimization (PPO) optimizes the hyperparameters, and Bayesian Optimization (BO) regularizes the hyperparameters. The proposed H-GANs used two different large vocabulary sign corpus of continuous sign videos to evaluate the performance and efficiency of the system. The experimental results on different dimensions reveal that the H-GANs improved the accuracy and recognition rate when compared with the state-of-the-art classification methods with reduced complexity.
+C1 [Elakkiya, R.] SASTRA Deemed Univ, Sch Comp, Thanjavur, India.
+   [Vijayakumar, Pandi] Univ Coll Engn Tindivanam, Dept Comp Sci & Engn, Tindivanam 604001, Tmailnadu, India.
+   [Kumar, Neeraj] Asia Univ, Dept Comp Sci & Informat Engn, Taichung, Taiwan.
+   [Kumar, Neeraj] Univ Petr & Energy Studies, Sch Comp Sci, Dehra Dun, Uttarakhand, India.
+   [Kumar, Neeraj] Thapar Inst Engn & Technol, Comp Sci & Engn, Patiala, Punjab, India.
+C3 Shanmugha Arts, Science, Technology & Research Academy (SASTRA); Asia
+   University Taiwan; University of Petroleum & Energy Studies (UPES);
+   Thapar Institute of Engineering & Technology
+RP Elakkiya, R (corresponding author), SASTRA Deemed Univ, Sch Comp, Thanjavur, India.; Vijayakumar, P (corresponding author), Univ Coll Engn Tindivanam, Dept Comp Sci & Engn, Tindivanam 604001, Tmailnadu, India.
+EM elakkiyaceg@gmail.com; vijibond2000@gmail.com; neeraj.kumar@thapar.edu
+RI Rajasekar, Elakkiya/IRZ-8510-2023; Kumar, Neeraj/L-3500-2016; Pandi,
+   Vijayakumar/Y-4636-2019
+OI Rajasekar, Elakkiya/0000-0002-2257-0640; Kumar,
+   Neeraj/0000-0002-3020-3947; Pandi, Vijayakumar/0000-0001-5451-8946
+FU Science & Engineering Research Board, Department of Science &
+   Technology, Government of India [SRG/2019/001338]
+FX I wish to express my gratitude to Science & Engineering Research Board,
+   Department of Science & Technology, Government of India for sanctioning
+   the project under Start-up Research Grant program "SRG/2019/001338" and
+   for supporting the project ostensibly.
+NR 24
+TC 14
+Z9 15
+U1 2
+U2 17
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0957-4174
+EI 1873-6793
+J9 EXPERT SYST APPL
+JI Expert Syst. Appl.
+PD NOV 15
+PY 2021
+VL 182
+AR 115276
+DI 10.1016/j.eswa.2021.115276
+EA JUN 2021
+PG 12
+WC Computer Science, Artificial Intelligence; Engineering, Electrical &
+   Electronic; Operations Research & Management Science
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Operations Research & Management Science
+GA UO7RL
+UT WOS:000694890100014
+DA 2024-04-04
+ER
+
+PT J
+AU Yu, X
+   Sun, YS
+   Wang, XB
+   Zhang, GC
+AF Yu, Xin
+   Sun, Yushan
+   Wang, Xiangbin
+   Zhang, Guocheng
+TI End-to-End AUV Motion Planning Method Based on Soft Actor-Critic
+SO SENSORS
+LA English
+DT Article
+DE autonomous underwater vehicle (AUV); deep reinforcement learning (DRL);
+   soft actor-critic (SAC); generative adversarial imitation learning
+   (GAIL); motion planning
+ID ALGORITHM
+AB This study aims to solve the problems of poor exploration ability, single strategy, and high training cost in autonomous underwater vehicle (AUV) motion planning tasks and to overcome certain difficulties, such as multiple constraints and a sparse reward environment. In this research, an end-to-end motion planning system based on deep reinforcement learning is proposed to solve the motion planning problem of an underactuated AUV. The system directly maps the state information of the AUV and the environment into the control instructions of the AUV. The system is based on the soft actor-critic (SAC) algorithm, which enhances the exploration ability and robustness to the AUV environment. We also use the method of generative adversarial imitation learning (GAIL) to assist its training to overcome the problem that learning a policy for the first time is difficult and time-consuming in reinforcement learning. A comprehensive external reward function is then designed to help the AUV smoothly reach the target point, and the distance and time are optimized as much as possible. Finally, the end-to-end motion planning algorithm proposed in this research is tested and compared on the basis of the Unity simulation platform. Results show that the algorithm has an optimal decision-making ability during navigation, a shorter route, less time consumption, and a smoother trajectory. Moreover, GAIL can speed up the AUV training speed and minimize the training time without affecting the planning effect of the SAC algorithm.
+C1 [Yu, Xin; Sun, Yushan; Wang, Xiangbin; Zhang, Guocheng] Harbin Engn Univ, Sci & Technol Underwater Vehide Lab, Harbin 150001, Peoples R China.
+C3 Harbin Engineering University
+RP Wang, XB (corresponding author), Harbin Engn Univ, Sci & Technol Underwater Vehide Lab, Harbin 150001, Peoples R China.
+EM 505779480@hrbeu.edu.cn; sunyushan@hrbeu.edu.cn; 2010011501@hrbeu.edu.cn;
+   zhangguocheng@hrbeu.edu.cn
+OI Wang, Xiangbin/0000-0003-1737-4810
+FU Natural Science Foundation of Heilongjiang Province [ZD2020E005];
+   Shaanxi Provincial Water Conservancy Science and technology program
+   [2020slkj-5]; National Natural Science Foundation of China [51779057]
+FX This research was funded by the Natural Science Foundation of
+   Heilongjiang Province (Grant ZD2020E005), Shaanxi Provincial Water
+   Conservancy Science and technology program (Grant 2020slkj-5), and The
+   National Natural Science Foundation of China (Grant 51779057). The
+   research team greatly appreciate the support from the aforementioned
+   institutions.
+NR 54
+TC 6
+Z9 6
+U1 15
+U2 109
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD SEP
+PY 2021
+VL 21
+IS 17
+AR 5893
+DI 10.3390/s21175893
+PG 31
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments
+   & Instrumentation
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA UO2PK
+UT WOS:000694541600001
+PM 34502781
+OA gold, Green Published
+DA 2024-04-04
+ER
+
+EF
